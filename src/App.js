@@ -1,12 +1,11 @@
 import './App.css';
-import Switch from './Switch';
-import Light from './Light';
+import Switch from './components/Switch';
 
 function App() {
+
   return (
     <div className="App">
       <Switch />
-      <Light />
     </div>
   );
 }
